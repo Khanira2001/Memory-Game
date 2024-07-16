@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Rex Runner Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>T-Rex Runner Game</h1>
+        <div class="game-area" id="game-area">
+            <div id="trex"></div>
+        </div>
+        <div class="score" id="score">Score: 0</div>
+        <button onclick="startGame()">Start Game</button>
+    </div>
+    <div class="popup" id="popup">
+        <div class="popup-content" id="popup-content"></div>
+        <button onclick="closePopup()">Close</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
